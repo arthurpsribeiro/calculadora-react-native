@@ -9,7 +9,7 @@ export default (props) => {
 	if (props.threeCollumns) stylesButton.push(styles.threeCollumns);
 
 	return (
-		<TouchableOpacity>
+		<TouchableOpacity onPress={() => props.onTouch(props.label)}>
 			<Text style={[stylesButton]}>{props.label}</Text>
 		</TouchableOpacity>
 	);

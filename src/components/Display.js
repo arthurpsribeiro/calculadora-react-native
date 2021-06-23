@@ -4,7 +4,7 @@ import { Text, View, StyleSheet } from "react-native";
 export default (props) => {
 	return (
 		<View style={styles.display}>
-			<Text style={styles.displayValue}>0</Text>
+			<Text style={styles.displayValue}>{props.value}</Text>
 		</View>
 	);
 };
