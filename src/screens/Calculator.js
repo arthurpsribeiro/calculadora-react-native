@@ -5,7 +5,7 @@ export default class Calculator extends Component {
 	state = {};
 
 	render() {
-		return;
+		return <></>;
 	}
 }
 
